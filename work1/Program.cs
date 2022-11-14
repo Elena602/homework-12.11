@@ -10,10 +10,10 @@ if (M > N)
 }
 void Integers(int k, int l)
 {
-    if (k < l)
+    if (k <= l)
     {
         Console.Write(k + " ");
         Integers(k + 1, l);
     }
 }
-Integers(M + 1, N);
+Integers(M, N);
